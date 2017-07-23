@@ -12,6 +12,17 @@
 .card-content {
   height: 100%;
 }
+.img-central {
+  margin-top: 8%;
+  width: 90%;
+  height: 90%;
+}
+.cont-img-der {
+  height: 33%;
+}
+.cont-img-der > img {
+  height: 100%;
+}
 p {
   margin-left: 5px;
   padding: 10px;
@@ -24,4 +35,9 @@ height: 100%;
 }
 #col-entradas, #col-autor {
   height: 1000px;
+}
+.img-autor {
+  width: 100px;
+  margin: 2px;
+  padding: 2px;
 }
