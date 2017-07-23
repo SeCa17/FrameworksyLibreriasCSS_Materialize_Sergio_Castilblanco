@@ -1,6 +1,27 @@
 .logo {
   background-color: blue;
-  margin-left: 50px;
+  margin: 10px 0 0 50px;
   width: 10rem;
   height: 10rem;
+}
+@media (max-width: 420px) {
+    #titulo-principal {
+      font-size: 80%;
+    }
+}
+.card-content {
+  height: 100%;
+}
+p {
+  margin-left: 5px;
+  padding: 10px;
+}
+#col-redes {
+  height: 500px;
+}
+#col-img + img {
+height: 100%;
+}
+#col-entradas, #col-autor {
+  height: 1000px;
 }

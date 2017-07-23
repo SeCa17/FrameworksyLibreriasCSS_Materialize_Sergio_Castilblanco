@@ -11,50 +11,121 @@
     <!--Importar la hojas de estilos de materialize css-->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/misestilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <title>Contenedores y Sistema de Rejilla</title>
+    <title>Mi blog de turismo</title>
   </head>
   <body>
-    <div class="logo col s12 m3 l3 left">
-      <img class="logo" src="img/logo-site.svg" alt="img/logo-site.svg" name="img/logo-site.svg">
+    <!--Inicio del contenedor del logo-->
+    <div class="z-depth-3 logo col s12 m3 l3 left">
+      <img class="responsive-img" src="img/logo-site.svg" alt="img/logo-site.svg" name="img/logo-site.svg">
     </div>
+    <!--Final del contenedor del logo-->
+    <!--Inicio del menu-->
     <nav>
       <div class="nav-wrapper">
-        <ul class="right hide-on-mid-and-down">
+        <ul class="right hide-on-med-and-down">
           <li class="active"><a href="index.html">Inicio</a></li>
-          <li class="active"><a href="index.html">Hoteles</a></li>
-          <li class="active"><a href="index.html">Restaurantes</a></li>
-          <li class="active"><a href="index.html">Centros Nocturnos</a></li>
-          <li class="active"><a href="index.html">Contacto</a></li>
+          <li class="active"><a href="hoteles.html">Hoteles</a></li>
+          <li class="active"><a href="restaurantes.html">Restaurantes</a></li>
+          <li class="active"><a href="centrosn.html">Centros Nocturnos</a></li>
+          <li class="active"><a href="contactos.html">Contacto</a></li>
         </ul>
       </div>
     </nav>
-    <div class="">
-      <h1>Hasta el norte, es tu destino.</h1>
+    <!--Final del menu-->
+    <!--Inicio del contenedor del título de la pag-->
+    <div class="center">
+      <h1 id="titulo-principal" >Hasta el norte, es tu destino.</h1>
     </div>
+    <!--Final del contenedor del título de la pag-->
+    <!--Inicio del contenedor del conteido 1 de la pag-->
     <div class="row">
-      <div class="col s3 m1 l1 left">
+      <!--Inicio barra lateral izq de iconos y hv de redes sociales-->
+      <div id="col-redes" class="col light-blue lighted-2 s12 m1 l1 left">
         <i class="material-icons"><a href="www.fecebook.com">Facebook</a></i>
         <i class="material-icons"><a href="www.fecebook.com">Facebook</a></i>
         <i class="material-icons"><a href="www.fecebook.com">Facebook</a></i>
         <i class="material-icons"><a href="www.fecebook.com">Facebook</a></i>
         <i class="material-icons"><a href="www.fecebook.com">Facebook</a></i>
       </div>
-      <div class="col s12 m11 l11 right">
-        <div class="col s12 m3 l3 left">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
+      <!--Final barra lateral izq de iconos y hv de redes sociales-->
+      <!--Inicio barra lateral der de imagenes-->
+        <div id="col-img" class="col s12 m11 l11 right pink darked-2 large">
+          <div class="card col s12 m3 l3 large">
+            <div class="card-image">
+              <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+            </div>
+            <div class="card-image">
+              <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+            </div>
+          </div>
         </div>
-        <div class="col s12 m4 l4 center">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
+        <div class="card col s12 m3 l3 large">
+          <div class="card-image">
+            <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+          </div>
         </div>
-        <div class="col s12 m4 l4 center">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
-          <img src="img/logo-site.svg" alt="img/logo-site.svg">
+        <div class="card col s12 m3 l3 large">
+          <div class="card-image">
+            <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+          </div>
+          <div class="card-image">
+            <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+          </div>
+          <div class="card-image">
+            <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+          </div>
         </div>
       </div>
+      <!--Final barra lateral der de imagenes-->
     </div>
+    <!--Final de contenedor del contenido 1-->
+    <!--Inicio del contenedor de contenido 2-->
+    <div class="row">
+      <!--Inicio del contenedor de entradas principales-->
+      <div id="col-entradas" class="card col s12 m8 l8 red lighted-3">
+        <div class="card-content">
+          <article class="">
+            <h2>Título de la entrada</h2>
+            <h5>Fecha de la publicación</h5>
+            <div class="card col s12 m3 l4">
+              <img class="responsive-img" src="img/cine.jpg" alt="img/cine.jpg">
+            </div>
+            <p class="flow-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <br/>
+            <p class="flow-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="row">
+              <form>
+                <div class="input-field white">
+                  <textarea class="materialize-textarea" name="comentario" placeholder="Cometarios"></textarea>
+                </div>
+              </form>
+            </div>
+          </article>
+        </div>
+      </div>
+      <!--Final del contenedor de entradas principales-->
+      <!--Inicio del contenedor perfil de autor-->
+      <div class="card col s12 m4 l4 red darken-2" id="col-autor">
+          <div class="avatar card-image">
+            <img class="circle responsive-img" src="img/logo.png" alt="img/logo.png">
+          </div>
+          <hr/>
+          <div class="card-content">
+            <p class="flow-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+      </div>
+      <!--Final del contenedor perfil de autor-->
+      <footer class="row">
+
+      </footer>
+    </div>
+    <!--Final del contenedor de contenido 2-->
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
