@@ -8,6 +8,14 @@
     #titulo-principal {
       font-size: 80%;
     }
+    #col-redes {
+      display: flex;
+      flex-direction: row;
+    }
+    #col-redes > a > img {
+      padding: 5px;
+        width: 20%;
+    }
 }
 @media (min-width: 421px) {
     #col-redes {
@@ -33,7 +41,9 @@ p {
   margin-left: 5px;
   padding: 10px;
 }
-
+#col-redes > a > img {
+    width: 100%;
+}
 #col-img + img {
 height: 100%;
 }
