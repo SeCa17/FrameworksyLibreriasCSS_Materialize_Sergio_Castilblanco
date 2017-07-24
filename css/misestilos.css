@@ -9,6 +9,12 @@
       font-size: 80%;
     }
 }
+@media (min-width: 421px) {
+    #col-redes {
+    height: 500px;
+  }
+}
+
 .card-content {
   height: 100%;
 }
@@ -27,9 +33,7 @@ p {
   margin-left: 5px;
   padding: 10px;
 }
-#col-redes {
-  height: 500px;
-}
+
 #col-img + img {
 height: 100%;
 }
