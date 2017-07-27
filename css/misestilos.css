@@ -12,9 +12,12 @@
       display: flex;
       flex-direction: row;
     }
-    #col-redes > a > img {
+    .icons-social {
       padding: 5px;
-        width: 20%;
+        width: 20px;
+    }
+    .conte-infer {
+      height: 100%;
     }
 }
 @media (min-width: 421px) {
@@ -22,9 +25,14 @@
     height: 500px;
   }
 }
-
+.icons-social {
+  width: 90%;
+}
 .card-content {
   height: 100%;
+}
+.img-izq {
+    height: 50%;
 }
 .img-central {
   margin-top: 8%;
@@ -42,16 +50,23 @@ p {
   padding: 10px;
 }
 #col-redes > a > img {
+  margin-top: 5px;
     width: 100%;
 }
 #col-img + img {
 height: 100%;
 }
-#col-entradas, #col-autor {
+.conte-infer {
   height: 1000px;
+}
+#col-entradas, #col-autor {
+  height: 100%;
 }
 .img-autor {
   width: 100px;
   margin: 2px;
   padding: 2px;
+}
+footer {
+  height: 100%;
 }
